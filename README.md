@@ -21,7 +21,7 @@ The concept of using these patterns to do a Kebab I have taken from Matthias Fel
 > All languages welcome. Bring your own laptop with your environment. We’ll split into small teams.
 
 ### From 4 to ∞ Participants
-* A Facilitator (you, right? if not *stop reading* now and pass this to the facilitator)
+* A Facilitator (you, *right?* if not *stop reading* now and pass this to the facilitator)
  * You are also the time-keeper and the “client”
 * At least 2 pairs of devs (Each group needs at least 2 devs and you need at least two groups)
 
@@ -34,7 +34,7 @@ The concept of using these patterns to do a Kebab I have taken from Matthias Fel
 * 4 iterations where they code with a budget of time you give
  * they can negotiate for more, be open to *negotiate* but never open to *accept* giving more
  * You should always behave like it is too much and ask if they cannot do it in less
-  * yes even when *you* decided on an arbitrary budget of time
+  * yes even though *you* decided on an arbitrary budget of time
 * At the end of each iteration each team has 45 seconds to do a “client demo”
  * During the client demos other teams can cheat and keep developing
  * the team does not show code during the client demo; just tests (automatic or manual) of the code working
@@ -80,14 +80,14 @@ The concept of using these patterns to do a Kebab I have taken from Matthias Fel
 * You'll be generous and give them some time to do that now
 * ALSO, by the way, you want `Kebab` to *just* have another method `isPesceterian`
  * Everythign that `isVegeterian` is also `isPesceterian` *plus* fishs & shrimps
-  * it is the first item you talk about shrimps
-  * deny it being the first
-  * tell them that you also want to submit a bug report regarding that they're not handling shrimp up until now
+  * yes, it is the first time you talk about shrimps
+   * deny it being the first time
+   * tell them that you also want to submit a bug report regarding that they're not handling shrimp up until now
 * insist that this is just a “cleaning spring” you are giving as a gift, the `isPesceterian` demand being, obviously, just a tiny detail
 
 ##### Tips:
 * keep the vagueness, inconsistency and demands for estimations
-* insist that best is the enemy of good enough
+* insist that *best is the enemy of good enough*
 * go around team per team asking each team if they would not produce more if they split the team into several teams of one person each working together by splitting tasks
 
 ### Iteration 3: “A single urgent user story for this spring!” (15 minutes)
@@ -135,7 +135,8 @@ The concept of using these patterns to do a Kebab I have taken from Matthias Fel
 * You propose that they create a `Dish` `Kebab` that is  a **NullObject** pattern
 * Then each one of the other types of `Kebab` should follow a **Composite** pattern
  * They will take another, inner, `Kebab` in their constructor & delegate to it
- * so a `Beef` `Kebab` is not Vegeterian, its `isVegeterian` calls the `isVegeterian` of its inner `Kebab`
+  * a `Beef` `Kebab` is not Vegeterian: its `isVegeterian` returns `false`
+  * a `Salad` `Kebab` is Vegeterian: its `isVegeterian` calls the `isVegeterian` of its inner `Kebab`
 * Defer any criticism of the idea by appealing to your own authority
 
 ### **The Debrief**
