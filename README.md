@@ -54,7 +54,7 @@ The concept of using these patterns to do a Kebab I have taken from Matthias Fel
 ### Iteration 1: “Kebabs & vegeterianism” (10 minutes)
 #### Tell the devs:
 * you are the owner of a kebab shop
-* you need kebab object that you can created with any ingredient you want (salad, tomatoes, onions, meat, etc)
+* you need kebab object that you can create with any ingredient you want (salad, tomatoes, onions, meat, etc)
 * you already have an user interface you only want the object
 * it should have one method `isVegeterian`
  * Takes no argument, returns a boolean
@@ -66,7 +66,7 @@ The concept of using these patterns to do a Kebab I have taken from Matthias Fel
  * do not give them your list of ingredients outright
   * behave like it should be obvious
 * *be inconsistent* ! 
- * when they ask specifically for the ingredients list, keep forgetting and remebering ingredients
+ * when they ask specifically for the ingredients list, keep forgetting and remembering ingredients
 * Devalue their work
  * Treat the task like being trivial and 10 minutes like being more than double the time they need to do this
 * Interrupt them to ask for opinions and lower estimates
@@ -79,18 +79,18 @@ The concept of using these patterns to do a Kebab I have taken from Matthias Fel
 * They also need some time to refactor, test & clean
 * You'll be generous and give them some time to do that now
 * ALSO, by the way, you want `Kebab` to *just* have another method `isPesceterian`
- * Everythign that `isVegeterian` is also `isPesceterian` *plus* fishs & shrimps
+ * Everything that `isVegeterian` is also `isPesceterian` *plus* fishs & shrimps
   * yes, it is the first time you talk about shrimps
    * deny it being the first time
    * tell them that you also want to submit a bug report regarding that they're not handling shrimp up until now
-* insist that this is just a “cleaning spring” you are giving as a gift, the `isPesceterian` demand being, obviously, just a tiny detail
+* insist that this is just a “cleaning sprint” you are giving as a gift, the `isPesceterian` demand being, obviously, just a tiny detail
 
 ##### Tips:
-* keep the vagueness, inconsistency and demands for estimations
+* keep the vagueness, inconsistencies and demands for estimations
 * insist that *best is the enemy of good enough*
 * go around team per team asking each team if they would not produce more if they split the team into several teams of one person each working together by splitting tasks
 
-### Iteration 3: “A single urgent user story for this spring!” (15 minutes)
+### Iteration 3: “A single urgent user story for this sprint!” (15 minutes)
 #### Tell the devs:
 * You want to submit a bug report: they do not handle sauces
  * tell them it's obvious you have sauces, of course you do !
@@ -104,7 +104,7 @@ The concept of using these patterns to do a Kebab I have taken from Matthias Fel
  * `bread + cheese + onion + cheese + onion` returns `bread + cheese + cheese + onion + cheese + cheese + onion`
 
 ##### Tips:
-* keep the vagueness, inconsistency and demands for estimations
+* keep the vagueness, inconsistencies and demands for estimations
 * insist your two demands are a single one
 * refuse to prioritize between them
 * go around team asking them if they cannot finish it earlier, like 10 minutes in total
@@ -115,7 +115,7 @@ The concept of using these patterns to do a Kebab I have taken from Matthias Fel
 * Please high-five everyone in your team!
 * you are all *fired*!
 * you are a new version of yourselves, unrelated to the previous ones
-* I hire you to inherit the codebase of your pevious selves
+* I hire you to inherit the codebase of your previous selves
 * the *last* team *REALLY* did an awful job! They where awful!
 * But your new you is really good, I can see that!
 * please do a one minute audit of the code
@@ -130,7 +130,7 @@ The concept of using these patterns to do a Kebab I have taken from Matthias Fel
 * I have hired an *Architect* to help you with an idea of how to do that refactoring
 
 #### Changing voice tone, Tell the devs:
-* You are * The Architect*
+* You are *The Architect*
 * You will try to speak with them in terms *they* can understand
 * You propose that they create a `Dish` `Kebab` that is  a **NullObject** pattern
 * Then each one of the other types of `Kebab` should follow a **Composite** pattern
